@@ -18,6 +18,10 @@
 		F56BE76D2949E73F00D5B6A3 /* MealsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BE76C2949E73F00D5B6A3 /* MealsTVC.swift */; };
 		F56BE76F2949EC1E00D5B6A3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BE76E2949EC1E00D5B6A3 /* Meal.swift */; };
 		F56BE7712949EC8900D5B6A3 /* MealsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BE7702949EC8900D5B6A3 /* MealsData.swift */; };
+		F56C5584294A6139001B1669 /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C5583294A6139001B1669 /* CellManager.swift */; };
+		F56C5586294A66D0001B1669 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C5585294A66D0001B1669 /* MealDetailViewController.swift */; };
+		F56C5588294A6ABE001B1669 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C5587294A6ABE001B1669 /* FeedbackViewController.swift */; };
+		F56C558C294A7064001B1669 /* ReviewsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C558B294A7064001B1669 /* ReviewsTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		F56BE76C2949E73F00D5B6A3 /* MealsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTVC.swift; sourceTree = "<group>"; };
 		F56BE76E2949EC1E00D5B6A3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		F56BE7702949EC8900D5B6A3 /* MealsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsData.swift; sourceTree = "<group>"; };
+		F56C5583294A6139001B1669 /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
+		F56C5585294A66D0001B1669 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		F56C5587294A6ABE001B1669 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		F56C558B294A7064001B1669 /* ReviewsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F56BE7702949EC8900D5B6A3 /* MealsData.swift */,
+				F56C5583294A6139001B1669 /* CellManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -117,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				F56BE76C2949E73F00D5B6A3 /* MealsTVC.swift */,
+				F56C5585294A66D0001B1669 /* MealDetailViewController.swift */,
+				F56C5587294A6ABE001B1669 /* FeedbackViewController.swift */,
+				F56C558B294A7064001B1669 /* ReviewsTableVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,11 +216,15 @@
 			files = (
 				F53225892949C1AE00D8F3B6 /* AppDelegate.swift in Sources */,
 				F56BE76F2949EC1E00D5B6A3 /* Meal.swift in Sources */,
+				F56C5586294A66D0001B1669 /* MealDetailViewController.swift in Sources */,
+				F56C5588294A6ABE001B1669 /* FeedbackViewController.swift in Sources */,
 				F56BE7672949DD8C00D5B6A3 /* ReviewTableViewCell.swift in Sources */,
+				F56C558C294A7064001B1669 /* ReviewsTableVC.swift in Sources */,
 				F56BE76D2949E73F00D5B6A3 /* MealsTVC.swift in Sources */,
 				F53225A42949CD0100D8F3B6 /* Feedbacks.swift in Sources */,
 				F56BE7712949EC8900D5B6A3 /* MealsData.swift in Sources */,
 				F532258B2949C1AE00D8F3B6 /* SceneDelegate.swift in Sources */,
+				F56C5584294A6139001B1669 /* CellManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

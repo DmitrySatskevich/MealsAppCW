@@ -8,6 +8,10 @@
 import UIKit
 
 class ReviewTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var textLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var ratingLbl: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
